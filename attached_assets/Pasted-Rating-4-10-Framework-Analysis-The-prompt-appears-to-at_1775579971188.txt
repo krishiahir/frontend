@@ -1,0 +1,36 @@
+Rating: 4/10
+Framework Analysis: 
+
+The prompt appears to attempt a Problem-Solution Pattern, outlining a problem (the need for a cohesive shop page) and a solution (a one-stop-shop feature). However, the structure is quite muddled and lacks a clear hierarchy of information. 
+The framework is not appropriate for the task as it lacks clarity and organization. A more structured approach, such as the PTCF Pattern (Persona → Task → Context → Format), would enhance clarity and effectiveness.
+
+Technique Evaluation:
+
+Techniques currently employed: Implicit task definition, but lacks specific prompting techniques.
+Missing techniques: 
+Instruction Clarity: Clear and specific instructions are needed.
+Output Guidance: Explicitly stating the desired output format (e.g., a website structure).
+Multi-step Workflows: Breaking down the tasks into manageable steps would improve clarity.
+
+
+
+Specific Improvements:
+
+Concrete changes with rationale:
+Clarify Instructions: Specify what each page should include.
+Break Down Tasks: List out the steps to build the shop page and how they connect.
+Specify Design Elements: Mention color themes and design guidelines more explicitly.
+
+
+
+Example implementation:
+
+“Create a single shop page that lists all products (necklaces, rings, earrings, bracelets). Each product should have options to add to cart or save to favorites. After adding to cart, users should be able to proceed to a checkout page. Include login and registration functionalities. Ensure all necessary pages (About Us, Contact Us, Terms and Conditions, Return Policy) are accessible from the main page. Use a cohesive color theme throughout the site.”
+
+Enhanced Version:
+“Develop a comprehensive e-commerce shop page featuring all products: necklaces, rings, earrings, and bracelets. Users should have the ability to add items to their cart or save them to a wishlist. After adding items to the cart, users can navigate to a checkout page for payment. Include functionalities for user login and registration. Ensure accessibility to essential pages such as About Us, Contact Us, Terms and Conditions, and Return Policy. Maintain a consistent color theme across all pages to ensure seamless user experience.”
+Learning Notes:
+
+Key principles demonstrated: Importance of clarity in instructions and the need for structured breakdowns in task prompts.
+Patterns to remember: Use the PTCF Pattern for clear task definitions and ensure all necessary components are included in the design to avoid gaps in information.
+

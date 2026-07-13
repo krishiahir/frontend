@@ -1,0 +1,40 @@
+Design a Responsive User Interface for Mobile Web Application
+
+Focus on layout, element sizing, and user experience.
+
+--------------------------------------------------
+
+Key Areas for Improvement
+
+- Navigation Menu:
+  In the mobile view, the navigation menu should only display "My Profile" and not "My Orders" and "My Profile" simultaneously.
+
+- Profile Section:
+  - The "My Profile" section appears slightly cut off in the mobile view. Adjust the sizing to ensure it is fully visible.
+  - The form within the "My Profile" section appears distorted. Decrease the element sizes and rearrange them for optimal display and usability on mobile devices.
+  - Ensure the "name" field is not cut off and is displayed properly.
+
+- Page Responsiveness:
+  All pages must be responsive and adapt perfectly to the mobile view, ensuring a best-in-class user experience. Double-check every page for responsiveness.
+
+- Form Validation:
+  - Implement validation for all input fields, specifically for Gmail format during registration.
+  - Validation messages should appear on `onkeyup` (as the user types) rather than on `onSubmit`, allowing users to correct errors in real-time before submitting the form.
+
+- Dynamic Marquee:
+  - Create a dynamic marquee section where 4-5 text items or other content can be added by an administrator.
+  - The headline/marquee should display these items sequentially.
+
+--------------------------------------------------
+
+Output Format
+
+Provide a detailed description of the UI/UX adjustments and implementation strategies for each of the key areas outlined above. This should include specific recommendations for CSS properties, layout techniques, and JavaScript logic where applicable.
+
+--------------------------------------------------
+
+Notes
+
+- Prioritize a clean and intuitive user experience in the mobile view.
+- Ensure consistency in design and layout across all responsive elements.
+- The validation for Gmail format should strictly adhere to standard email address patterns.

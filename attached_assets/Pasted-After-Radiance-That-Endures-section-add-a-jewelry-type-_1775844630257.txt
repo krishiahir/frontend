@@ -1,0 +1,21 @@
+After Radiance That Endures section, add a jewelry type section with 5 types from a db get this(Necklace, Earrings, Rings, etc.). Each type should be shown as a card with an image uploaded from the admin panel. On clicking a card, redirect to its respective category page (like necklace section or ring section). At the top, add a search button to search products from the web store. Then keep the remaining sections as they are.
+
+After “Add to Cart”, show a checkout option but instead of a full checkout page, create a slider dropdown that shows added products and a quick “Proceed” button. Keep the rest of the flow unchanged.
+
+Remove “Estimated delivery: 5–7 business days” from the order confirmation page.
+
+On the Shop page (The Boutique), slightly reduce section height for better mobile view.
+
+Improve filters on the Shop page: current filter is too small and not user-friendly. Replace it with a slider-style filter panel including price range slider, search box, filter button, and price filter. Make it easy and fast for users to find products.
+
+In Contact form, users enter name, email, subject, and message. Show all messages in admin panel in a clean structured view. Add a quick reply button where admin can add subject and message. On send, email should be theme-formatted and sent to the user.
+
+Fix Announcement Bar so it shows above the header.
+
+On Highlight page and Lookbook, “Worn & Loved” background is same as others—change it to a white card style with a light border for better visibility.
+
+Add a Feature Flags system in admin panel for offers like Buy 1 Get 1, Buy 2 Get 1, Buy 4 Get 1, or % discounts. Add a field in product to mark it eligible for offers. If enabled, apply selected offer. Should be dynamic and can be turned on/off anytime.
+
+In settings, add free shipping threshold and default shipping charge. If free shipping is enabled, apply it above threshold; otherwise use default charge.
+
+On homepage, add a “Buy Now” option and try to connect with WOMees to redirect users to the shopping page.
