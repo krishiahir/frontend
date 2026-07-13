@@ -1,4 +1,6 @@
-const BASE = `${import.meta.env.BASE_URL}api`.replace(/\/+api/, "/api");
+export const BASE = import.meta.env.VITE_API_URL
+  ? `${import.meta.env.VITE_API_URL}/api`
+  : `${import.meta.env.BASE_URL}api`.replace(/\/+api/, "/api");
 
 function getToken() {
   return localStorage.getItem("ethura_token");
@@ -14,8 +16,17 @@ async function request<T>(path: string, options?: RequestInit): Promise<T> {
       ...(options?.headers || {}),
     },
   });
-  const data = await res.json();
+  const text = await res.text();
+  let data: any = {};
+  if (text) {
+    try {
+      data = JSON.parse(text);
+    } catch {
+      data = {};
+    }
+  }
   if (!res.ok) throw new Error(data.error || "Request failed");
+  if (!text) throw new Error("Server returned an empty response. Please try again.");
   return data as T;
 }
 
